@@ -1,7 +1,9 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_bb4x3PC8ABV9FTLUmw3SjVO2006TIGtvDM",
   s3: {
     REGION: "us-east-2",
-    BUCKET: "notes-app-uploads"
+    BUCKET: "xsun-notes-app-uploads"
   },
   apiGateway: {
     REGION: "us-east-2",
